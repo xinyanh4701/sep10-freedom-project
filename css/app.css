@@ -12,3 +12,9 @@
 .main {
     background: linear-gradient(#ffb647, #f7701b);
 }
+
+.list {
+    background: lightgray;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
