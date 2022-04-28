@@ -23,45 +23,46 @@
     <body>
         <!-- HTML -->
         <!-- Sticky Navbar fluid-container -->
-        <div data-sticky-container>
-            <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%" data-top-anchor="1">
-                <div class="title-bar-left">
-                    <span class="title-bar-title"><a href="main.html">Freedom Project</a></span>
-                </div>
-                <div class="title-bar-right">
-                    <ul class="dropdown menu align-right" data-dropdown-menu>
-                        <li>
-                            <a href="#">Part A</a>
-                            <ul class="menu">
-                                <li><a href="#software">Software Used Before the Future</a></li>
-                                <li><a href="#passenger">Passenger Use</a></li>
-                                <li><a href="#operator">Operator Use</a></li>
-                                <li><a href="#hardware">Hardware Used Before the Future</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="part-b.html">Part B</a>
-                            <ul class="menu">
-                                <li><a href="part-b.html/#intro">Intro</a></li>
-                                <li><a href="part-b.html/#tech1">Tech Invention Idea #1</a></li>
-                                <li><a href="part-b.html/#tech2">Tech Invention Idea #2</a></li>
-                                <li><a href="part-b.html/#tech3">Tech Invention Idea #3</a></li>
-                                <li><a href="part-b.html/#outro">Outro</a></li>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="main.html">Public Transportation</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="part-a.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Current Innovations</a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="nav-link dropdown-item" href="part-a.html/#software">Software Used Before the Future</a></li>
+                                <li><a class="nav-link dropdown-item" href="part-a.html/#hardware">Hardware Used Before the Future</a></li>
                             </ul>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="part-a.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Future Innovations</a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="nav-link dropdown-item" href="part-b.html/#intro">Intro</a></li>
+                                <li><a class="nav-link dropdown-item" href="part-b.html/#tech1">Tech Invention Idea #1</a></li>
+                                <li><a class="nav-link dropdown-item" href="part-b.html/#tech2">Tech Invention Idea #2</a></li>
+                                <li><a class="nav-link dropdown-item" href="part-b.html/#outro">Outro</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- container-fluid -->
+        </nav>
         
         
         <!-- Software Used Before the Future Header large-6 -->
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12" id="software"><h1>Software Used Before the Future</h1></div>
+                <div class="col text-center" id="software"><h1>Software Used Before the Future</h1></div>
             </div>
         </div>
-        <!-- Carousel/Orbit (images of software used before the future header) -->
         
         <!-- Passenger Use Header large-6 -->
         <div class="container">
