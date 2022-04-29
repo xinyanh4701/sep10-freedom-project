@@ -19,6 +19,7 @@
             img {
                 height: 1000px;
             }
+            
         </style>
         <title>Main Page</title>
     </head>
@@ -26,7 +27,7 @@
         <!-- HTML -->
         
         <!-- Carousel/Orbit -->
-        <div class="orbit" role="region" aria-label="Different Kinds of Public Transportation" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; data-auto-play:true; data-dynamic-height:true;">
+        <div class="orbit" role="region" aria-label="Different Kinds of Public Transportation" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; data-auto-play:true; data-dynamic-height:true;" id="top">
             <div class="orbit-wrapper">
                 <ul class="orbit-container">
                     <li class="is-active orbit-slide">
@@ -125,12 +126,15 @@
         <!-- Sticky Navbar -->
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="main.html">Public Transportation</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#top">Public Transportation</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle active" href="part-a.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Current Innovations</a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -138,17 +142,12 @@
                                 <li><a class="nav-link dropdown-item" href="part-a.html/#hardware">Hardware Used Before the Future</a></li>
                             </ul>
                         </li>
-                    </ul>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                    <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="part-a.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Future Innovations</a>
+                            <a class="nav-link dropdown-toggle active" href="part-b.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Future Innovations</a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="nav-link dropdown-item" href="part-b.html/#intro">Intro</a></li>
                                 <li><a class="nav-link dropdown-item" href="part-b.html/#tech1">Tech Invention Idea #1</a></li>
                                 <li><a class="nav-link dropdown-item" href="part-b.html/#tech2">Tech Invention Idea #2</a></li>
-                                <li><a class="nav-link dropdown-item" href="part-b.html/#outro">Outro</a></li>
+                                <li><a class="nav-link dropdown-item" href="part-b.html/#tech3">Tech Invention Idea #3</a></li>
                             </ul>
                         </li>
                     </ul>
