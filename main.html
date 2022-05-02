@@ -19,11 +19,35 @@
             img {
                 height: auto;
             }
-            
-            body {
-                background-color: #F28705;
+
+            h1 {
+                font-size: 120px;
+                margin: 3rem;
+                animation-name: rainbow;
+                animation-iteration-count: infinite;
+                animation-duration: 5s;
             }
-            
+
+            @keyframes rainbow {
+                0% {
+                color: #6666ff;
+              }
+                10% {
+                color: #0099ff;
+              }
+                50% {
+                color: #00ff00;
+              }
+                75% {
+                color: #ff3399;
+              }
+                100% {
+                color: #6666ff;
+              }
+
+            }
+
+
         </style>
         <title>Main Page</title>
     </head>
@@ -61,7 +85,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <p>
                         Vehicle: Metro Train<br>
-                        Location: Jakarta, Indonesia 
+                        Location: Jakarta, Indonesia
                     </p>
                 </div>
             </div>
@@ -132,7 +156,7 @@
                 <img src="img/bus-seoul.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <p>
-                        Vehicle: Standard One Decker Bus<br> 
+                        Vehicle: Standard One Decker Bus<br>
                         Location: Seoul, South Korea
                     </p>
                 </div>
@@ -261,7 +285,7 @@
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#top">
-                  <img src="img/freedom-project-logo.png" alt="" width="32" height="32" class="d-inline-block align-text-top">
+                  <img src="img/freedom-project-logo.png" alt="" width="32" height="32" class="d-inline-block align-center">
                   Public Transportation
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -292,128 +316,129 @@
         <!-- Info -->
         <p class="text-center">Public transportation is a transportation system for the general public to get to point A to point B. The technology in public transportation has increased dramatically over the past decade and will be improved in the coming years. The qeustion is though, how can we improve public transportation? Down below is what the majority of types of public transportation vehicles:</p>
 
-        <div class="orbit list" role="region" aria-label="Favorite Text Ever" data-orbit>
-            <ul class="orbit-container">
-                <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-                <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-                <li class="is-active orbit-slide text-center">
-                  <div class="docs-example-orbit-slide">
-                    <h1>Bicycle</h1>
-                  </div>
-                </li>
-                <li class="orbit-slide text-center">
-                  <div class="docs-example-orbit-slide">
-                    <h1>Metro Train</h1>
-                  </div>
-                </li>
-                <li class="orbit-slide text-center">
-                  <div class="docs-example-orbit-slide">
-                    <h1>Cable Car</h1>
-                  </div>
-                </li>
-                <li class="orbit-slide text-center">
-                  <div class="docs-example-orbit-slide">
-                    <h1>Ferry</h1>
-                  </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Tram</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Light Rail</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Monorail</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Maglev Train</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>High-Speed Rail</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Steam Locomotives</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Standard One Decker Bus</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Double Decker Bus</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Articultated Bus</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Minibus</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Trolley Bus</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Coach Bus</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Rickshaw</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Taxi</h1>
-                    </div>
-                </li>
-                <li class="orbit-slide text-center">
-                    <div class="docs-example-orbit-slide">
-                        <h1>Sea Taxi</h1>
-                    </div>
-                </li>
-            </ul>
-            <nav class="orbit-bullets">
-                <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-                <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-                <button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>
-                <button data-slide="5"><span class="show-for-sr">Sixth slide details.</span></button>
-                <button data-slide="6"><span class="show-for-sr">Seventh slide details.</span></button>
-                <button data-slide="7"><span class="show-for-sr">Eighth slide details.</span></button>
-                <button data-slide="8"><span class="show-for-sr">Ninth slide details.</span></button>
-                <button data-slide="9"><span class="show-for-sr">Tenth slide details.</span></button>
-                <button data-slide="10"><span class="show-for-sr">Eleventh slide details.</span></button>
-                <button data-slide="11"><span class="show-for-sr">Twelfth slide details.</span></button>
-                <button data-slide="12"><span class="show-for-sr">Thirteenth slide details.</span></button>
-                <button data-slide="13"><span class="show-for-sr">Fourteenth slide details.</span></button>
-                <button data-slide="14"><span class="show-for-sr">Fifteenth slide details.</span></button>
-                <button data-slide="15"><span class="show-for-sr">Sixteenth slide details.</span></button>
-                <button data-slide="16"><span class="show-for-sr">Seventeenth slide details.</span></button>
-                <button data-slide="17"><span class="show-for-sr">Eighteenth slide details.</span></button>
-                <button data-slide="18"><span class="show-for-sr">Nineteenth slide details.</span></button>
-            </nav>
-        </div>
+
+        <!--<div class="orbit list" role="region" aria-label="Favorite Text Ever" data-orbit>-->
+        <!--    <ul class="orbit-container">-->
+        <!--        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>-->
+        <!--        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>-->
+        <!--        <li class="is-active orbit-slide text-center">-->
+        <!--          <div class="docs-example-orbit-slide">-->
+        <!--            <h1>Bicycle</h1>-->
+        <!--          </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--          <div class="docs-example-orbit-slide">-->
+        <!--            <h1>Metro Train</h1>-->
+        <!--          </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--          <div class="docs-example-orbit-slide">-->
+        <!--            <h1>Cable Car</h1>-->
+        <!--          </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--          <div class="docs-example-orbit-slide">-->
+        <!--            <h1>Ferry</h1>-->
+        <!--          </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Tram</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Light Rail</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Monorail</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Maglev Train</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>High-Speed Rail</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Steam Locomotives</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Standard One Decker Bus</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Double Decker Bus</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Articultated Bus</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Minibus</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Trolley Bus</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Coach Bus</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Rickshaw</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Taxi</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--        <li class="orbit-slide text-center">-->
+        <!--            <div class="docs-example-orbit-slide">-->
+        <!--                <h1>Sea Taxi</h1>-->
+        <!--            </div>-->
+        <!--        </li>-->
+        <!--    </ul>-->
+        <!--    <nav class="orbit-bullets">-->
+        <!--        <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>-->
+        <!--        <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>-->
+        <!--        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>-->
+        <!--        <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>-->
+        <!--        <button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>-->
+        <!--        <button data-slide="5"><span class="show-for-sr">Sixth slide details.</span></button>-->
+        <!--        <button data-slide="6"><span class="show-for-sr">Seventh slide details.</span></button>-->
+        <!--        <button data-slide="7"><span class="show-for-sr">Eighth slide details.</span></button>-->
+        <!--        <button data-slide="8"><span class="show-for-sr">Ninth slide details.</span></button>-->
+        <!--        <button data-slide="9"><span class="show-for-sr">Tenth slide details.</span></button>-->
+        <!--        <button data-slide="10"><span class="show-for-sr">Eleventh slide details.</span></button>-->
+        <!--        <button data-slide="11"><span class="show-for-sr">Twelfth slide details.</span></button>-->
+        <!--        <button data-slide="12"><span class="show-for-sr">Thirteenth slide details.</span></button>-->
+        <!--        <button data-slide="13"><span class="show-for-sr">Fourteenth slide details.</span></button>-->
+        <!--        <button data-slide="14"><span class="show-for-sr">Fifteenth slide details.</span></button>-->
+        <!--        <button data-slide="15"><span class="show-for-sr">Sixteenth slide details.</span></button>-->
+        <!--        <button data-slide="16"><span class="show-for-sr">Seventeenth slide details.</span></button>-->
+        <!--        <button data-slide="17"><span class="show-for-sr">Eighteenth slide details.</span></button>-->
+        <!--        <button data-slide="18"><span class="show-for-sr">Nineteenth slide details.</span></button>-->
+        <!--    </nav>-->
+        <!--</div>-->
 
         <!-- Bootstrap script tags -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
