@@ -24,7 +24,9 @@
                 height: auto;
             }
             
-            
+            .pagination {
+                margin: 2rem;
+            }
             
             h1 {
                 margin: 3rem;
@@ -63,6 +65,7 @@
                 border: solid 3px black;
                 margin: 2px;
             }
+            
         </style>
         <title>Main Page</title>
     </head>
@@ -347,6 +350,18 @@
             <div class="columns small-12 medium-6 large-3 boxes"><p>Rickshaw</p></div>
             <div class="columns small-12 medium-6 large-3 boxes"><p>Taxi</p></div>
             <div class="columns small-12 medium-6 large-3 boxes"><p>Sea Taxi</p></div>
+        </div>
+        
+        <div class="columns row">
+            <nav aria-label="Pagination">
+                <ul class="pagination text-center">
+                    <li class="pagination-previous disabled">Previous</li>
+                    <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                    <li><a href="part-a.html" aria-label="Page 2">2</a></li>
+                    <li><a href="part-b.html" aria-label="Page 3">3</a></li>
+                    <li class="pagination-next"><a href="part-a.html" aria-label="Next page">Next</a></li>
+                </ul>
+            </nav>
         </div>
 
         <!-- Bootstrap script tags -->
