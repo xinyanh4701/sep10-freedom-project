@@ -20,6 +20,10 @@
         <!--inline css -->
         <style>
             /* CSS */
+            body {
+                background-color: #F1F1F1;
+            }
+            
             img {
                 height: auto;
             }
@@ -65,7 +69,10 @@
                 border: solid 3px black;
                 margin: 2px;
             }
-
+            
+            .pagination {
+                display: block;
+            }
         </style>
         <title>Main Page</title>
     </head>
@@ -337,40 +344,91 @@
                 </div>
             </div>
         </div>
-
-
+        
+        
         <div class="row text-center">
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Biycle</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Metro Train</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Cable Car</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Ferry</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Tram</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Light Rail</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Monorail</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Maglev Train</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>High Speed Rail</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Steam Locomotive</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Standard One Decker Bus</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Double Decker Bus</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Articulated Bus</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Minibus</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Trolley Bus</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Coach Bus</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Rickshaw</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Taxi</p></div>
-            <div class="columns small-12 medium-6 large-3 boxes"><p>Sea Taxi</p></div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Bicycle</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Metro Train</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Cable Car</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Ferry</p>
+            </div>
         </div>
-
-        <div class="columns row">
-            <nav aria-label="Pagination">
-                <ul class="pagination text-center">
-                    <li class="pagination-previous disabled">Previous</li>
-                    <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-                    <li><a href="part-a.html" aria-label="Page 2">2</a></li>
-                    <li><a href="part-b.html" aria-label="Page 3">3</a></li>
-                    <li class="pagination-next"><a href="part-a.html" aria-label="Next page">Next</a></li>
-                </ul>
-            </nav>
+        <div class="row text-center">
+            <div class="columns medium-6 large-3 boxes">
+                <p>Tram</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Light Rail</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Monorail</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Maglev Train</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="columns medium-6 large-3 boxes">
+                <p>High Speed Rail</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Steam Locomotive</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Standard One Decker Bus</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Double Decker Bus</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="columns medium-6 large-3 boxes">
+                <p>Articulated Bus</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Minibus</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Trolley Bus</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Coach Bus</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="columns medium-6 large-3 boxes">
+                <p>Rickshaw</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Taxi</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Sea Taxi</p>
+            </div>
+            <div class="columns medium-6 large-3 boxes">
+                <p>Paratransit Bus</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="columns">
+                <nav aria-label="Pagination">
+                    <ul class="pagination text-center">
+                        <li class="pagination-previous disabled">Previous</li>
+                        <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                        <li><a href="part-a.html" aria-label="Page 2">2</a></li>
+                        <li><a href="part-b.html" aria-label="Page 3">3</a></li>
+                        <li class="pagination-next"><a href="part-a.html" aria-label="Next page">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
         <!-- Bootstrap script tags -->
